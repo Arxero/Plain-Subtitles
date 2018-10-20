@@ -12,17 +12,31 @@
 
 <body>
     <div class="site">
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <header>
-            <p class="site-title"><a href="/">Plain Subtitles</a></p>
+            <p class="site-title"><a href="/"><i class="fas fa-angle-double-right"></i>Plain Subtitles</a></p>
+            <label for="nav-toggle" id="toggle"><i class="fas fa-bars"></i></label>
             <nav>
                 <ul>
-                    <li><a href="#">Add</a></li>
-                    <li><a href="#">Request</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Login</a>
+                    <li><a href="#"><i class="far fa-plus-square"></i> Add</a></li>
+                    <li><a href="#"><i class="far fa-file-alt"></i> Request</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> About</i></a>
                         <ul>
-                            <li><a href="#">Register</a></li>
+                            <li><a href="#"><i class="fas fa-book-open"></i> The Project</a></li>
+                            <li><a target="blank" href="https://github.com/Arxero/Plain-Subtitles"><i class="fas fa-external-link-alt"></i> GitHub Page</a></li>
+                            <li><a href="#"><i class="fas fa-users"></i> Our Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="far fa-envelope"></i> Contact</i></a>
+                        <ul>
+                            <li><a href="#">Admin</a></li>
+                            <li><a href="#">Moderator</a></li>
+                            <li><a href="#">Uploader</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fas fa-power-off"></i> Login</i></a>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-edit"></i> Register</a></li>
                             <li><a href="#">Forgotten Password</a></li>
                         </ul>
                     </li>

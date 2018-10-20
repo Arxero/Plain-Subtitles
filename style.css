@@ -6,7 +6,7 @@ body {
     background-color: #222222;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23111111' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
     color: #dadada;
-    max-width: 60rem;
+    max-width: 65rem;
     margin: 0 auto;
     /* padding: 0 1rem; */
 }
@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-content: center;
     padding-bottom: 0.7rem;
+    flex-wrap: wrap;
 }
 
 .site-title {
@@ -33,4 +34,8 @@ header {
 .site-title a {
     text-decoration: none;
     color: #2693E6;
+}
+
+.site-title a:hover {
+    color: white;
 }
