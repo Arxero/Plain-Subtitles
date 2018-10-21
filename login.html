@@ -31,12 +31,12 @@
                     </li>
                     <li><a href="#"><i class="far fa-envelope"></i> Contact</i></a>
                         <ul>
-                            <li><a href="./contact-admin.html">Admin</a></li>
+                            <li><a href="#">Admin</a></li>
                             <li><a href="#">Moderator</a></li>
                             <li><a href="#">Uploader</a></li>
                         </ul>
                     </li>
-                    <li><a href="./login.html"><i class="fas fa-power-off"></i> Login</i></a>
+                    <li><a href="#"><i class="fas fa-power-off"></i> Login</i></a>
                         <ul>
                             <li><a href="./register.html"><i class="fas fa-edit"></i> Register</a></li>
                             <li><a href="#">Forgotten Password</a></li>
@@ -47,7 +47,34 @@
         </header>
 
         <main>
-            <h1>WELCOME</h1>
+            <form action="#">
+                <fieldset>
+                    <legend>
+                        <i class="fas fa-power-off"></i> Login</legend>
+                    ​ <label>Please fill in this form to login in your account.</label>
+                    <hr>
+
+                    <label>Username</label>
+                    <div class="input-container">
+                        ​<i class="fa fa-user icon"></i>
+                        <input type="text" name="username" placeholder="Enter Username">
+                    </div>
+
+                    <label>Password</label>
+                    <div class="input-container">
+                        <i class="fas fa-key icon"></i>
+                        <input type="password" name="password" placeholder="Enter Password">
+                    </div>
+
+                    <p>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Submit">
+                    </p>
+                </fieldset>
+            </form>
         </main>
 
 
