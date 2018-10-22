@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./images/right-double-chevron.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Plain Subtitles</title>
 </head>
 
@@ -29,13 +29,7 @@
                             <li><a href="#"><i class="fas fa-users"></i> Our Team</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><i class="far fa-envelope"></i> Contact</i></a>
-                        <ul>
-                            <li><a href="#">Admin</a></li>
-                            <li><a href="#">Moderator</a></li>
-                            <li><a href="#">Uploader</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="./contact.html"><i class="far fa-envelope"></i> Contact</i></a></li>
                     <li><a href="./login.html"><i class="fas fa-power-off"></i> Login</i></a>
                         <ul>
                             <li><a href="#"><i class="fas fa-edit"></i> Register</a></li>
@@ -47,46 +41,48 @@
         </header>
 
         <main>
-            <form action="#">
-                <fieldset>
-                    <legend>
-                        <i class="fas fa-edit"></i> Register</legend>
-                    ​ <label>Please fill in this form to create an account.</label>
-                    <hr>
-
-                    <label>Username</label>
-                    <div class="input-container">
-                        ​<i class="fa fa-user icon"></i>
-                        <input type="text" name="username" placeholder="Enter Username">
-                    </div>
-
-                    <label>Email</label>
-                    <div class="input-container">
-                        <i class="fa fa-envelope icon"></i>
-                        <input type="text" name="email" placeholder="Enter Email">
-                    </div>
-
-                    <label>Password</label>
-                    <div class="input-container">
-                        <i class="fas fa-key icon"></i>
-                        <input type="password" name="password" placeholder="Enter Password">
-                    </div>
-
-                    <label>Confirm Password</label>
-                    <div class="input-container">
-                        <i class="fas fa-key icon"></i>
-                        <input type="password" name="confirmPassword" placeholder="Confirm Password">
-                    </div>
-
-                    <p>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </p>
-                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                    <p>
-                        <input type="submit" value="Submit">
-                    </p>
-                </fieldset>
-            </form>
+            <div class="form-container">
+                <form action="#">
+                    <fieldset>
+                        <legend>
+                            <i class="fas fa-edit"></i> Register</legend>
+                        ​ <label>Please fill in this form to create an account.</label>
+                        <hr>
+    
+                        <label>Username</label>
+                        <div class="input-container">
+                            ​<i class="fa fa-user icon"></i>
+                            <input type="text" name="username" placeholder="Enter Username">
+                        </div>
+    
+                        <label>Email</label>
+                        <div class="input-container">
+                            <i class="fa fa-envelope icon"></i>
+                            <input type="text" name="email" placeholder="Enter Email">
+                        </div>
+    
+                        <label>Password</label>
+                        <div class="input-container">
+                            <i class="fas fa-key icon"></i>
+                            <input type="password" name="password" placeholder="Enter Password">
+                        </div>
+    
+                        <label>Confirm Password</label>
+                        <div class="input-container">
+                            <i class="fas fa-key icon"></i>
+                            <input type="password" name="confirmPassword" placeholder="Confirm Password">
+                        </div>
+    
+                        <p>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </p>
+                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                        <p>
+                            <input type="submit" value="Submit">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
         </main>
 
 

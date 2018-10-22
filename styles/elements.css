@@ -1,0 +1,49 @@
+article {
+    background: #111111;
+    border-radius: 5px;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+article:hover {
+    background: #151515;
+}
+
+
+article a {
+    text-decoration: none;
+    color: #dadada;
+}
+
+.title {
+    color: #FFBA00;
+    font-size: 2rem;
+    display: block;
+}
+
+.genre {
+    color: #2693E6;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.actors {
+    display: block;
+}
+
+.description {
+    color: #555555;
+}
+
+article a img {
+    float: left;
+    margin-right: 1rem;
+    max-width: 92px;
+    max-height: 138px;
+}
+
+article a img::after {
+    display: block;
+    content: '';
+    clear: both;
+}
