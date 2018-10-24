@@ -1,8 +1,13 @@
+.movies-container {
+    margin-bottom: 1rem;
+}
+
 article {
     background: #111111;
     border-radius: 5px;
-    height: 10rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
+    padding: 0.9rem;
+    box-shadow: 0px 0px 22px 2px rgba(0, 0, 0, 0.4);
 }
 
 article:hover {
@@ -15,35 +20,72 @@ article a {
     color: #dadada;
 }
 
-.title {
-    color: #FFBA00;
-    font-size: 2rem;
-    display: block;
+
+.movie-link {
+    display: flex;
+    position: relative;
 }
 
-.genre {
-    color: #2693E6;
-    font-size: 1.3rem;
-    display: block;
-}
-
-.actors {
-    display: block;
-}
-
-.description {
-    color: #555555;
-}
-
-article a img {
-    float: left;
-    margin-right: 1rem;
+.movie-link img {
     max-width: 92px;
     max-height: 138px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
-article a img::after {
-    display: block;
-    content: '';
-    clear: both;
+.movie-info {
+    margin-left: 1rem;
 }
+
+.movie-info .title {
+    color: #FFBA00;
+    font-size: 2rem;
+    flex: 1 0 100%;
+}
+
+.movie-info .genre {
+    color: #2693E6;
+    font-size: 1.3rem;
+    /* background: red; */
+    flex-basis: 50%;
+    
+}
+
+.movie-info .description {
+    color: #7a8288;
+}
+
+/* MORE INFO */
+.details-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.more-info {
+    display: flex;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    line-height: 1;
+    text-align: center;
+}
+
+.more-info .year, .more-info .duration {
+    color: #2693E6;
+}
+
+.more-info .rating {
+    color: #FFBA00;
+}
+
+.more-info div small {
+    font-size: 0.8rem;
+    color: #7a8288;
+}
+
+.more-info div:not(:last-child) {
+    padding-right: 1rem;
+}
+
+
+
