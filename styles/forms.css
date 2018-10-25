@@ -26,7 +26,7 @@ form input {
 }
 
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=number] {
     width: 100%;
 }
 
@@ -88,7 +88,7 @@ label:not(:first-of-type) {
 }
 
 
-/* contact form */
+/* CONTACT FORM */
 .contact-form {
     background: #111111;
     border-radius: 5px;
@@ -100,7 +100,7 @@ label:not(:first-of-type) {
     margin-left: 0;
 }
 
-.contact-form textarea {
+textarea {
     background: #dadada;
     width: 100%;
     height: 12rem;
@@ -109,6 +109,8 @@ label:not(:first-of-type) {
     padding: 0.5rem;
     outline: none;
     border: none;
+    resize: vertical;
+    border-radius: 2px;
 }
 
 .contact-form p {
@@ -119,7 +121,59 @@ label:not(:first-of-type) {
     margin-left: 1.2rem;
 }
 
-/* .contact-form h1 
-    margin: 0;
-    padding: 0;
-} */
+/* ADD MOVIE FORM  */
+.add-movie-container {
+    background: #111111;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.add-movie-container form {
+    width: 20rem;
+    flex: 0 1 60%;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.add-movie-container input[type=submit] {
+    margin-top: 0.5rem;
+}
+
+.add-movie-container input[type=text], .add-movie-container input[type=number] {
+    border-radius: 2px;
+}
+
+.add-movie-container p {
+    margin-bottom: 1rem;
+}
+
+/* REQUEST MOVIE FORM */
+.request-movie-container {
+    background: #111111;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.request-movie-container form {
+    width: 20rem;
+    flex: 0 1 60%;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.request-movie-container input[type=submit] {
+    width: 100%;
+}
+
+.request-movie-container input[type=text], .add-movie-container input[type=number] {
+    border-radius: 2px;
+}
+
+.request-movie-container p {
+    margin-top: 1.5rem;
+}
+
