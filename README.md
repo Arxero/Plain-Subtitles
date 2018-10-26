@@ -13,3 +13,6 @@ along with the video.
 
 ## Providers
 All subs at the current time are hosted on gist.github.com and pastebin.com, using their raw form of text file hosting.
+
+## The Future
+In the current stage of the development is nothing more than proof of concept, as it has some bugs and the future is unclear.
