@@ -45,7 +45,8 @@ nav>ul>li:not(:last-child) {
 }
 
 nav>ul>li>ul>li:not(:last-child) {
-    padding-bottom: 0.8rem;
+    /* padding-bottom: 0.8rem; added margin after recommendation from the teacher*/
+    margin-bottom: 0.8rem;
 }
 
 nav li:hover>a, nav a:hover {
