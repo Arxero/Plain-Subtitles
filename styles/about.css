@@ -83,11 +83,11 @@
     /* background: darkred; */
 }
 
-img {
+.about-container img {
     transition: transform 1.5s;
 }
 
-img:hover {
+.about-container img:hover {
     transform: scale(1.1);
 }
 

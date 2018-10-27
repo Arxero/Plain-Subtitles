@@ -16,7 +16,6 @@ body {
 }
 
 .site {
-
     background: #222222;
     padding: 0.7rem 2rem;
 }
@@ -58,3 +57,15 @@ main>h2 {
     margin: 1rem 0;
 }
 
+/* FOOTER */
+
+footer img {
+    width: 300px;
+    max-width: 100%;
+}
+
+footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
